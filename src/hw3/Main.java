@@ -110,7 +110,7 @@ public class Main {
         int hiddenNumber = random.nextInt(10);
         int attempt = 2;
 
-        int numberOfPlayer = showMessageInt("Я загадал число от 0 до 9, попробуй угадать его!", "Если ты введешь не только числа или числа, не входящие в диапазон от 0 до 9, то это будет засчитано за неправильную на попытку");
+        int numberOfPlayer = showMessageInt("Я загадал число от 0 до 9, попробуй угадать его!", "Если ты введешь не только числа или числа, не входящие в диапазон от 0 до 9, то это будет засчитано за неправильную попытку");
 
         while (numberOfPlayer != hiddenNumber && attempt != 0) {
 
