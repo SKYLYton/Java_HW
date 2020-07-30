@@ -9,9 +9,9 @@ public class Main {
         employees[3] = new Employee("Гончаров Алексей Иванович","Педагог","ggggg@mail.ru","1234567890", 20000, 45);
         employees[4] = new Employee("Сидоров Некто Иванович","Уборщик","ggggg@mail.ru","1234567890", 9000, 56);
 
-        for (int i = 0; i < employees.length; i++) {
-            if(employees[i].getAge() >= 40){
-                employees[i].info();
+        for (Employee employee : employees) {
+            if (employee.getAge() >= 40) {
+                employee.info();
             }
         }
 
