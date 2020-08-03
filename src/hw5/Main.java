@@ -1,5 +1,9 @@
 package hw5;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         Employee[] employees = new Employee[5];
@@ -12,6 +16,15 @@ public class Main {
         for (Employee employee : employees) {
             if (employee.getAge() >= 40) {
                 employee.info();
+            }
+        }
+
+        List<Employee> list = new ArrayList<>();
+        list.add(new Employee("Иванов Иван Иванович","Уборщик","ggggg@mail.ru","1234567890", 9000, 19));
+
+        for (int i = 0; i < list.size(); i++)  {
+            if (list.get(i).getAge() >= 40) {
+                list.get(i).info();
             }
         }
 
