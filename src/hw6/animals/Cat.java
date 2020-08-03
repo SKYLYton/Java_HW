@@ -3,10 +3,10 @@ package hw6.animals;
 public class Cat extends Animal {
 
     public Cat(String name) {
-        super(name, 200);
+        super(name, 200, 0);
     }
 
-    @Override
+/*    @Override
     public void swim(int distance) {
         if (distance < 0) {
             System.out.println("Некорректное число");
@@ -14,5 +14,5 @@ public class Cat extends Animal {
         }
 
         System.out.println(name + " утанул");
-    }
+    }*/
 }
