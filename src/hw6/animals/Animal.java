@@ -18,7 +18,7 @@ public class Animal {
         }
 
         if(distanceRun == 0){
-            System.out.println(name + " не смог преодолет дистанцию");
+            System.out.println(name + " не смог преодолеть дистанцию");
             return;
         }
 

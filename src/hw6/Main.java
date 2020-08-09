@@ -17,6 +17,8 @@ public class Main {
         animals[3] = new Cat("Том");
         animals[4] = new Dog("Марта");
 
+
+
         animals[0].run(120);
         animals[4].run(499);
         animals[2].swim(10);
