@@ -116,15 +116,13 @@ public class MyWindow extends JFrame implements ActionListener {
 
         int c = Integer.parseInt(command);
 
-
-        textC = textC * 10 + c;
+        textC = Double.parseDouble(textField.getText() + "" + c);
 
         textField.setText(textC + "");
 
         if(textField.getText().endsWith(".0")){
             textField.setText(textField.getText().replace(".0",""));
         }
-
 
     }
 
