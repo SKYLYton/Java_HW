@@ -19,7 +19,7 @@ public class XOgame {
 
 
     public static void main(String[] args) {
-
+        
         initMap();
         printMap();
 
